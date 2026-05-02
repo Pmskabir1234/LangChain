@@ -1,0 +1,20 @@
+Model
+A component in langchain framework, designed to facilitate interactions with different language models and embedding models.
+
+Problem
+Different llm has different code syntax to interact with their model.
+
+Langchain model provides common interface to interact with any llm models.
+
+Types
+Language model : text in - text out.
+Embedding model : text in - series of number out(vectors). (used for semantic searches)
+
+Language Models
+AI systems designed to process, generate and understand natural language text.
+
+Types
+LLMs : General purpose models, used for raw text generation. No built in memory, does not understand roles.
+
+Chat Models : SPecialized for conversational tasks. More used now. Supports history, trained and fine tuned on conversational data and understands role assignments.
+
