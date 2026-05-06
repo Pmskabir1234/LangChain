@@ -1,0 +1,18 @@
+Prompts: The input instruction or queries given to model to guide it's output. Models output is heavily dependent on it.
+
+Types:
+    1. Textual
+    2. Multimodal (Audio, Image, Video or any other form of input.)
+
+
+Staic Prompts: Static prompts are fixed, pre-defined text instructions given to an AI.
+    They remain constant across multiple interactions or queries, offering consistency.
+    Best for repetitive tasks or when the required input is always the same.
+Example: "Summarize this article" or "Translate this to Spanish."
+They are simple to implement but lack adaptability to changing contexts.
+
+Dynamic Prompts: Dynamic prompts, conversely, are generated or modified in real-time.
+    Their content adapts based on user input, previous turns, or external data.
+    This allows for highly personalized, context-aware, and interactive experiences.
+Example: "Based on your prior interest in [topic], what are your thoughts on [related_item]?"
+Dynamic prompts offer greater flexibility and sophistication, enhancing engagement and relevance.

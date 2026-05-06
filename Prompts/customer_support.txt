@@ -1,0 +1,2 @@
+HumanMessage(content='I want my refund of order id OD00069')
+AiMessage(content='The refund for your order id OD00069 has been initiated and will be processed within 3-5 business days')
