@@ -1,0 +1,19 @@
+{
+    "title": "Student",
+    "descripton": "A student record",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+            
+        },
+        "age": {
+            "type": "integer"
+            
+        },
+        "grade": {
+            "type": "string"
+        }
+    },
+    "required": ["name", "grade"]
+}
