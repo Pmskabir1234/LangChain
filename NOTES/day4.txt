@@ -1,0 +1,169 @@
+# Short Notes on Output Parsers in LangChain
+
+---
+
+# 1. StrOutputParser
+
+## Definition
+
+`StrOutputParser` converts the LLM response into a plain Python string.
+
+## Use Cases
+
+* Chatbots
+* Summaries
+* Simple text generation
+
+## Features
+
+* Simplest parser
+* No validation
+* No structure
+
+## Example
+
+```python id="o6qvdl"
+from langchain_core.output_parsers import StrOutputParser
+
+parser = StrOutputParser()
+```
+
+## Output
+
+```python id="9z98wg"
+"Artificial Intelligence is..."
+```
+
+---
+
+# 2. JsonOutputParser
+
+## Definition
+
+`JsonOutputParser` converts LLM output into JSON/dictionary format.
+
+## Use Cases
+
+* APIs
+* Structured responses
+* Backend integration
+
+## Features
+
+* Structured output
+* Easy data access
+* No strict validation
+
+## Example
+
+```python id="e9r31h"
+from langchain_core.output_parsers import JsonOutputParser
+
+parser = JsonOutputParser()
+```
+
+## Output
+
+```python id="nq3t31"
+{
+   "name": "Aarav",
+   "age": 15
+}
+```
+
+---
+
+# 3. PydanticOutputParser
+
+## Definition
+
+`PydanticOutputParser` uses Pydantic models to validate and structure LLM outputs.
+
+## Use Cases
+
+* Production applications
+* Reliable structured data
+* Type-safe systems
+
+## Features
+
+* Validation support
+* Type checking
+* Schema enforcement
+
+## Example
+
+```python id="gjl9ws"
+from pydantic import BaseModel
+from langchain_core.output_parsers import PydanticOutputParser
+
+class Student(BaseModel):
+    name: str
+    age: int
+
+parser = PydanticOutputParser(
+    pydantic_object=Student
+)
+```
+
+## Output
+
+```python id="mzwx0w"
+Student(name='Aarav', age=15)
+```
+
+---
+
+# 4. Structured Output
+
+## Definition
+
+Structured Output is a modern LangChain feature that directly generates schema-based outputs using:
+
+```python id="vquqhc"
+with_structured_output()
+```
+
+## Use Cases
+
+* Cleaner structured generation
+* Modern LangChain workflows
+* Better reliability
+
+## Features
+
+* Simpler than manual parsers
+* Automatic schema handling
+* Works well with Pydantic
+
+## Example
+
+```python id="4jlwmn"
+structured_model = model.with_structured_output(Student)
+```
+
+## Output
+
+```python id="cf4v7f"
+Student(name='Aarav', age=15)
+```
+
+---
+
+# Quick Comparison Table
+
+| Parser               | Output Type     | Validation | Best Use         |
+| -------------------- | --------------- | ---------- | ---------------- |
+| StrOutputParser      | String          | No         | Simple text      |
+| JsonOutputParser     | JSON/Dict       | No         | APIs             |
+| PydanticOutputParser | Pydantic Object | Yes        | Production apps  |
+| Structured Output    | Schema Object   | Yes        | Modern workflows |
+
+---
+
+# One-Line Summary
+
+* **StrOutputParser** → plain text output
+* **JsonOutputParser** → JSON formatted output
+* **PydanticOutputParser** → validated structured output
+* **Structured Output** → modern schema-based output generation

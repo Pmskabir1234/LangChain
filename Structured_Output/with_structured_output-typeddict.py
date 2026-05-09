@@ -26,7 +26,7 @@ res = structured_model.invoke("""
                             questioning reality until the very end, and the twist completely changes
                             how you see the story. Dark, smart, and emotionally heavy — definitely worth
                             watching if you enjoy mind-bending films.
-                            """)
+""")
 
 print(res,"\n")
 print(res['summary'])
