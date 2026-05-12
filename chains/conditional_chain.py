@@ -48,5 +48,6 @@ branch_chain = RunnableBranch(
 
 chain = sentiment_chain | branch_chain
 
-res = chain.invoke({'feedback':'samsung book 4 is terrible product due its slow motherboard'})
-print(res)
+res = chain.invoke({'feedback':'samsung galaxy book 4 is a terrible product due to its slow motherboard'})
+print(res, "\n")
+chain.get_graph().print_ascii()
