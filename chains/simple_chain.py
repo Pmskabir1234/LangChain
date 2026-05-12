@@ -28,7 +28,7 @@ template2 = PromptTemplate(
 
 parser = StrOutputParser()
 
-chain = template1 | model | parser | model | parser
+chain = template1 | model | parser | template2 | model | parser
 
 res = chain.invoke({'topic':'Ironman'})
 
