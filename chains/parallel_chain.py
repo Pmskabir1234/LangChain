@@ -13,7 +13,7 @@ llm1 = HuggingFaceEndpoint(
 
 llm2 = HuggingFaceEndpoint(
     model='google/gemma-4-31B-it',
-    task='test-generation'
+    task='text-generation'
 )
 
 model1 = ChatHuggingFace(llm=llm2)
