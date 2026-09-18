@@ -1,0 +1,20 @@
+--- Research Output ---
+Timestamp: 2026-09-18 20:28:51
+
+Topic: GPT Astra model and job replacement
+
+Summary: The GPT-6 Astra model, reportedly released by OpenAI in September 2026, is described as an advanced AI capable of taking control of a computer and autonomously completing complex, multi-step tasks that traditionally require human intervention. It is positioned to move AI beyond a design assistant to a "next-gen supervised operator." This model is expected to impact various job roles by performing complex reasoning, research, computer use, coding, and handling long documents. Specific areas mentioned include tech careers, H-1B roles, and architecture, engineering, and construction (AEC) workflows, where it could reshape computational design and overall processes.
+
+Sources: duckduckgo_search
+Tools Used: duckduckgo_search, save_to_txt
+
+--- Research Output ---
+Timestamp: 2026-09-18 20:33:24
+
+Topic: GPT Astra model and job replacement
+
+Summary: The GPT-6 Astra model from OpenAI is designed to autonomously control computers and complete complex, multi-step tasks that typically require human intervention. Positioned as OpenAI’s most intelligent model for business, it is capable of handling intricate workflows and producing polished work. This suggests a significant impact on various job roles by automating tasks across different sectors, potentially affecting administrative, operational, and even some analytical or creative positions. The introduction of GPT-6 Astra is expected to bring about considerable changes to jobs, careers, and human resources, necessitating adaptation in skill sets and workforce management strategies.
+
+Sources: duckduckgo_search
+Tools Used: duckduckgo_search, save_to_txt
+
