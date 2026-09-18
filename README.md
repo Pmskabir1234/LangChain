@@ -26,7 +26,7 @@ The goal is to move from **fundamentals to building fully functional AI agents**
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 Each day’s work is organized progressively:
 
@@ -56,7 +56,7 @@ Each folder may include:
 
 ---
 
-## 🔑 Key Concepts Covered
+## Key Concepts Covered
 
 * LLM Integration
 * Embeddings & Semantic Search
@@ -66,7 +66,7 @@ Each folder may include:
 
 ---
 
-## 📈 Learning Approach
+## Learning Approach
 
 This repository follows a **step-by-step incremental approach**:
 
@@ -87,11 +87,11 @@ This repository follows a **step-by-step incremental approach**:
 
 ##  Current Status
 
-🟢 Actively learning and updating daily
+ Actively learning and updating daily
 
 ---
 
-## 🎯 Future Goals
+## Future Goals
 
 * Build production-level AI agents
 * Integrate tools like APIs, databases, and external systems
@@ -100,7 +100,7 @@ This repository follows a **step-by-step incremental approach**:
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 This is primarily a personal learning repo, but suggestions and improvements are always welcome.
 
@@ -112,4 +112,4 @@ If you're also learning LangChain or working on AI systems, feel free to connect
 
 ---
 
-⭐ *Follow the journey as I move from basics to building intelligent AI systems step by step.*
+ *Follow the journey as I move from basics to building intelligent AI systems step by step.*
